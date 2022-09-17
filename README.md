@@ -1,2 +1,6 @@
 # hao_tian_main
-1
+pyenv install 3.8.10 
+pyenv global 3.8.10
+
+python manage.py makemigrations   demo
+python manage.py  migrate   demo
